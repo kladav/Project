@@ -1,0 +1,1 @@
+This is my first project on Odin. This will become constantly updated along with improvement of the skills.

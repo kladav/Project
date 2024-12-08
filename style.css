@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding: 0 1rem;
+}
+
+.logo {
+    font-size: large;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    font-size: small;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header {
+    background: #1F2937;
+    color: #F9FAF8;
+    height: 200px;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+div.ads {
+    font-size: small;
+}
+
+button.ads {
+    color: white;
+    background-color: rgb(73, 151, 245);
+    width: 7rem;
+    border-radius: 5px;
+}
+
+img.media {
+    height: 180px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: auto;
+}
+
+.content {
+    background-color: white;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.content div {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+ul.bikes {
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+li.bikeinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li img {
+    border: 2px solid rgb(73, 151, 245);
+}
+
+.cite {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 40px;
+}
+
+h2 {
+    font-family: inherit;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.credits {
+    align-self: flex-end;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+div.action {
+    background-color: rgb(73, 151, 245);
+    color: white;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 600px;
+    gap: 5px;
+    height: 60px;
+}
+
+div.ads2 {
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+div.ads2:nth-of-type(1) {
+    font-weight: 900;
+}
+
+button.button {
+    background-color: rgb(73, 151, 245);
+    color: inherit;
+    border-color: white;
+    border: 2x;
+    border-radius: 5px;
+    width: 7rem;
+    align-self: flex-end;
+    margin-right: 30px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
